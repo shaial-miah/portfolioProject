@@ -48,6 +48,7 @@ nav {
 
 .navItems > li > a:hover {
     color: #f77cfc;
+    transition: 0.3s;
 }
 
 
@@ -60,8 +61,6 @@ nav {
 /* Section introducing who I am, and my key skikls. */
 
 .infoAboutMe {
-    border: solid;
-    border-color: red;
 
     height: 30rem;
 
@@ -72,13 +71,36 @@ nav {
 
 }
 
-.programmingSkills {
-    border: solid;
+.skillsContainer {
     height: 400px;
-    background-color: red
+    align-content: center;
+}
+
+#code1 {
+    padding: 10px;
+}
+
+.macIcons {
+    border: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    border: solid;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 /* Footer style */
+
+footer {
+    justify-items: center;
+    align-content: center;
+}
 
 footer > p {
 

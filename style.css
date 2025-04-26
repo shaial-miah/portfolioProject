@@ -6,6 +6,8 @@
     color: white;
 }
 
+/* NavBar / Logo styling */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,6 +20,10 @@ header {
     color: #f77cfc;
     font-weight: 900;
 
+}
+
+#myName {
+    color: #f77cfc;
 }
 
 body {
@@ -48,6 +54,31 @@ nav {
 .navItems > li > a {
     text-decoration: none;
 }
+
+/* Main content styling */
+
+/* Section introducing who I am, and my key skikls. */
+
+.infoAboutMe {
+    border: solid;
+    border-color: red;
+
+    height: 30rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.programmingSkills {
+    border: solid;
+    height: 400px;
+    background-color: red
+}
+
+/* Footer style */
 
 footer > p {
 

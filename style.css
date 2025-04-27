@@ -13,6 +13,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgba(255, 255, 255, 0.356);
 }
 
 #logo {
@@ -60,6 +63,40 @@ nav {
 
 /* Section introducing who I am, and my key skikls. */
 
+#introduction {
+    font-size: 40px;
+    align-content: baseline;
+}
+
+.socialMediaContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+#linkedInIcon {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#contactMeBttn {
+    background-color:#f77cfc;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+}
+
+#contactMeBttn:hover {
+    background-color: rgb(176, 25, 164);
+    transition: 0.7s;
+}
+
 .infoAboutMe {
 
     height: 30rem;
@@ -95,11 +132,24 @@ nav {
     border-top-right-radius: 8px;
 }
 
+/* About me section */
+
+.aboutMe {
+   /* border: solid;*/
+    height: 15rem;
+}
+
+.aboutMeTitle {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
 /* Footer style */
 
 footer {
     justify-items: center;
     align-content: center;
+    margin-top: 20px;
 }
 
 footer > p {

@@ -156,3 +156,37 @@ footer > p {
 
     color: #f77cfc;
 }
+
+/* Responsive web style */
+
+@media screen and (max-width: 1055px) {
+    .navItemsChild {
+      display: none;
+    }
+
+    .infoAboutMe {
+        display: inline;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    #introduction {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .socialMediaContainer {
+        justify-content: center;
+    }
+
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #code1 {
+        font-size: 20px;
+    }
+ 
+  }

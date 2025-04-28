@@ -78,7 +78,7 @@ nav {
 
 #linkedInIcon {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #contactMeBttn {
@@ -135,14 +135,39 @@ nav {
 /* About me section */
 
 .aboutMe {
-   /* border: solid;*/
-    height: 15rem;
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .aboutMeTitle {
     text-transform: uppercase;
     font-size: 25px;
 }
+
+.aboutMeTxt {
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.image1 {
+    background-image:url(/assets/Nft\ Coding\ GIF.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer style */
 
@@ -157,6 +182,7 @@ footer > p {
     color: #f77cfc;
 }
 
+
 /* Responsive web style */
 
 @media screen and (max-width: 1055px) {
@@ -167,12 +193,28 @@ footer > p {
     .infoAboutMe {
         display: inline;
     }
+
+    .aboutMe {
+        display: inline;
+    }
+
+    .image1 {
+        display: block;
+        height: 800px;
+        width: 800px;
+        justify-self: center;
+    }
+
   }
 
   @media screen and (max-width: 600px) {
 
+    #logo {
+        font-size: 25px;
+    }
+
     #introduction {
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
     }
 

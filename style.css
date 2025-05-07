@@ -198,11 +198,17 @@ nav {
     margin-bottom: 10px;
 }
 
+#formHeading > h3 {
+    font-size: 30px;
+}
+
 #nameInputField {
     display: block;
     width: 100%;
     border: none;
     margin-top: 5px;
+    color: black;
+    padding: 2px;
 }
 
 #emailInputField {
@@ -210,19 +216,48 @@ nav {
     width: 100%;
     border: none;
     margin-top: 5px;
+    color: black;
+    padding: 2px;
+    
 }
 
 #contactFormBttn {
     display: block;
     background-color: #f77cfc;
+    justify-self: center;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
 }
 
+textarea {
+    width: 100%;
+    color: black;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+/*  programming skills section */
 
 
+.skillsSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+}
 
+.skillsItem {
+    width: 100px;
+    height: 100px;
 
+}
 
-
+#skillsTitle {
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 /* Footer style */
@@ -261,11 +296,16 @@ footer > p {
         justify-self: center;
     }
 
+    .skillsItem {
+        width: 100px;
+        height: 100px;
+    }
+
   }
 
   /*mobile view*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 620px) {
 
     #logo {
         font-size: 25px;
